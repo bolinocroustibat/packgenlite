@@ -1,9 +1,8 @@
 # Packgenlite - Python package builder
 
-This package is a meta-package that provide Python libs for projects
-and mainly `packgenlite` script.
+Python script to create Python packages templates with preconfigured setup, tests and CI/CD.
 
-`packgenlite` create a Python package template.
+Forked from https://github.com/krokrob/packgenlite in order to use the PEP518/PEP621 compliant `pyproject.toml` dependencies/setup file instead of old `requirements.txt` and `setup.py`.
 
 
 ## Install `packgenlite`
