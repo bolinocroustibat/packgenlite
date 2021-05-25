@@ -1,14 +1,23 @@
-# packgenlite - Python package builder
+# Packgenlite - Python package builder
 
-This package is a meta-package that provide python libs for projects
+This package is a meta-package that provide Python libs for projects
 and mainly `packgenlite` script.
 
 `packgenlite` create a Python package template.
 
+
 ## Install `packgenlite`
+
+With pip:
 ```bash
-pip install git+https://github.com/krokrob/packgenlite.git
+pip install git+https://github.com/bolinocroustibat/packgenlite.git
 ```
+
+or with Poetry:
+```bash
+poetry add git+https://github.com/bolinocroustibat/packgenlite.git
+```
+
 
 ## Create a `newpkgname` package
 
@@ -32,7 +41,7 @@ tree
 │   └── data
 ├── notebooks
 ├── raw_data
-├── requirements.txt
+├── pyproject.toml
 ├── scripts
 │   └── newpkgname-run
 ├── setup.py
