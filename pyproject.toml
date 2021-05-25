@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "packgenlite"
-version = "1.0.0"
-description = "Python Package Builder"
+version = "1.2.0"
+description = "Package builder for Data Science projects derived from https://github.com/lologibus2/wagon_tools"
 authors = ["Adrien Carpentier <moi@adriencarpentier.com>"]
 
 [tool.poetry.dependencies]
